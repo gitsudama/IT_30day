@@ -27,3 +27,32 @@ After install fastapi and uvicorn
 to check the installation type following in comand promt 
 python3 -c "import fastapi; print('FastApi version:', fastapi.__version__)"
 
+# My FastAPI Backend
+
+A REST API built with FastAPI and Python.
+
+## Setup
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install fastapi uvicorn
+```
+
+## Run
+```bash
+uvicorn main:app --reload
+```
+
+## Endpoints
+
+| Method | URL | Description |
+|--------|-----|-------------|
+| GET | / | Home - API status |
+| GET | /about | API information |
+| GET | /hello/{name} | Greet by name |
+| GET | /add/{a}/{b} | Add two numbers |
+| GET | /users | List all users |
+| GET | /users/{id} | Get user by ID |
+
+## Docs
+Visit http://127.0.0.1:8000/docs for interactive documentation.
