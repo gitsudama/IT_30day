@@ -1,4 +1,4 @@
-#!/Users/sudama/learning/IT_30day/.venv/bin/python
+#!/Users/sudama/learning/IT_30day/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
